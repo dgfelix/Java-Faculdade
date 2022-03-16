@@ -26,7 +26,7 @@ original_window = Navegador.current_window_handle
 #####--------------------------#####
 # ------   Logando na conta   ------
 #     *****  Email  *****
-email = "ti@atlas.ind.br"
+email =
 
 Navegador.find_element_by_id("power-bi-portal-link-desktop").click()    #Botão entrar
 time.sleep(10)
@@ -52,7 +52,7 @@ Navegador.find_element_by_id("idSIButton9").click()        #Botão avançar/loga
   #Navegador.find_element_by_id('aadTile').click()
 
 time.sleep(5)
-key = '@g1l1d4d3'
+key =
 Navegador.find_element_by_id("i0118").send_keys(key)
 Navegador.find_element_by_id('idSIButton9').click()
 
@@ -70,7 +70,7 @@ Navegador.find_element_by_xpath('//*[@id="idSIButton9"]').click()
 
 # Abrindo pagina direto do painel, após logar na conta
 time.sleep(4)
-url_1 = "https://app.powerbi.com/groups/dbbcc9b3-7a69-4af2-9206-9fe495fd64f9/reports/3b47b5e2-1668-4303-8d5e-b5f956f3bbf4/ReportSection?chromeless=1"
+url_1 = **********
 Navegador.get(url_1)
 Aba_1 = Navegador.current_window_handle
 
@@ -97,10 +97,10 @@ for window in Navegador.window_handles:
     i += 1
 
 #Links
-url_2 = "https://app.powerbi.com/groups/dbbcc9b3-7a69-4af2-9206-9fe495fd64f9/reports/3b47b5e2-1668-4303-8d5e-b5f956f3bbf4/ReportSection9432c05a0ace70000115?chromeless=1"
-url_3 = "https://app.powerbi.com/groups/dbbcc9b3-7a69-4af2-9206-9fe495fd64f9/reports/3b47b5e2-1668-4303-8d5e-b5f956f3bbf4/ReportSection201e0506523e727c4bd2?chromeless=1"
-url_4 = "https://app.powerbi.com/groups/dbbcc9b3-7a69-4af2-9206-9fe495fd64f9/reports/3b47b5e2-1668-4303-8d5e-b5f956f3bbf4/ReportSection3ec4622247d77e2e260a?chromeless=1"
-url_5 = "https://app.powerbi.com/groups/4d4064e7-b14d-4805-9beb-e53d6b2a9d03/reports/8f71fe19-98db-4072-b356-c3c456e16fd0/ReportSection370bafc932c6993bb031?chromeless=1"
+url_2 = 
+url_3 = 
+url_4 = 
+url_5 = 
 
 # Pegando a posição no loop a cima
 # Abrindo link 2
