@@ -1,1 +1,1 @@
-Atividades feitas durante a materia de Programação Orientada a Objetos, usando Java como linguagem de aprendizado.
+Diretório focado para armazenar alguns projetos executados na disciplina Programação Orientada a Objetos
